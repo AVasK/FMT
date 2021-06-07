@@ -11,8 +11,7 @@ Supported:
 ## Syntax
 ```C++
 // Positional:
-auto formatted = "your {1} goes {0}"_f("here", "args");
-auto fmt2 = "let {0} = {{ "{1}" }}"_f("x", "string");
+auto formatted = "your {1} go {0}"_f("here", "args");
 //or 
 std::cout << "{0} is {2} better"_f("this", "actually", "much");
 
